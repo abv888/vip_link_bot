@@ -44,8 +44,8 @@ async def start(message):
     await bot.send_photo(
         chat_id=message.chat.id,
         photo=open(f"resources/choose_plan.jpg", "rb"),
-        caption="🏷️Choose your tariff plan!\n\n"
-                "You have opportunity to join <b>Premium channel</b> and bet on my <b>personal and insider signals.🤑</b>",
+        caption="<b>🏷️Choose your tariff plan!</b>\n\n"
+                "You have opportunity to join <b>Premium channel</b> and bet on my <b>personal and insiders signals.🤑</b>",
         parse_mode="HTML",
         reply_markup=keyboard
     )
