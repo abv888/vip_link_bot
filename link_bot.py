@@ -46,6 +46,7 @@ async def start(message):
         photo=open(f"resources/choose_plan.jpg", "rb"),
         caption="🏷️Choose your tariff plan!\n\n"
                 "You have opportunity to join <b>Premium channel</b> and bet on my <b>personal and insider signals.🤑</b>",
+        parse_mode="HTML",
         reply_markup=keyboard
     )
 
