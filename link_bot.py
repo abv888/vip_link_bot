@@ -45,7 +45,7 @@ async def start(message):
         chat_id=message.chat.id,
         photo=open(f"resources/choose_plan.jpg", "rb"),
         caption="🏷️Choose your tariff plan!\n\n"
-                "You have opportunity to join VIP channel and bet on my personal signals.🤑",
+                "You have opportunity to join <b>Premium channel</b> and bet on my <b>personal and insider signals.🤑</b>",
         reply_markup=keyboard
     )
 
@@ -70,7 +70,7 @@ async def callback_inline(call):
         await bot.send_photo(
             chat_id=call.message.chat.id,
             photo=open(f"resources/trial.jpg", "rb"),
-            caption="Well done, you have chosen the 14 days free trial✅\n\n"
+            caption="<b>Well done, you have chosen the 14 days free trial✅<.b>\n\n"
                  "To activate the <b>free plan</b>, you need to:\n\n"
                  '🧑‍💻Click on <b>"REGISTER"</b> and register on <b>22BET</b>\n\n'
                  '🔍 Then click on <b>"Verify Registration"</b>.',
