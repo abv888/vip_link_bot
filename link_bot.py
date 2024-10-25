@@ -25,11 +25,11 @@ async def start(message):
         row_width=1
     )
     permanent_access_button = types.InlineKeyboardButton(
-        text="800$ (1.312.000₦) Lifetime",
+        text="800$ Lifetime 🏆",
         callback_data="permanent"
     )
     monthly_access_button = types.InlineKeyboardButton(
-        text="150$ (250.000₦) monthly",
+        text="150$ Monthly ⏰",
         callback_data="monthly"
     )
     free_7_days_button = types.InlineKeyboardButton(
