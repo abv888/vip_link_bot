@@ -71,7 +71,7 @@ async def callback_inline(call):
         await bot.send_photo(
             chat_id=call.message.chat.id,
             photo=open(f"resources/trial.jpg", "rb"),
-            caption="<b>Well done, you have chosen the 14 days free trial✅<.b>\n\n"
+            caption="<b>Well done, you have chosen the 14 days free trial✅</b>\n\n"
                  "To activate the <b>free plan</b>, you need to:\n\n"
                  '🧑‍💻Click on <b>"REGISTER"</b> and register on <b>22BET</b>\n\n'
                  '🔍 Then click on <b>"Verify Registration"</b>.',
