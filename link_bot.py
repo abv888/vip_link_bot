@@ -118,7 +118,7 @@ async def callback_inline(call):
                     "<b>Now you need to make a transfer🏦</b>\n\n"
                     "Amount - <b>150$</b>\n\n"
                     "Network: <b>TRC20</b>\n"
-                    "💸 - \n<code>TBUM2bdza8NrepggwsfFHToHfqAAztYc2W</code>\n\n"
+                    "\n<code>TBUM2bdza8NrepggwsfFHToHfqAAztYc2W</code>\n\n"
                     "Or just scan <b>QR CODE☝️</b>\n\n"
                     "<b>After payment send me screenshot</b>",
             parse_mode='HTML',
@@ -143,7 +143,7 @@ async def callback_inline(call):
                     "<b>Now you need to make a transfer🏦</b>\n\n"
                     "Amount - <b>800$</b>\n\n"
                     "Network: <b>TRC20</b>\n"
-                    "💸 - \n<code>TBUM2bdza8NrepggwsfFHToHfqAAztYc2W</code>\n\n"
+                    "\n<code>TBUM2bdza8NrepggwsfFHToHfqAAztYc2W</code>\n\n"
                     "Or just scan <b>QR CODE☝️</b>\n\n"
                     "<b>After payment send me screenshot</b>",
             parse_mode='HTML',
