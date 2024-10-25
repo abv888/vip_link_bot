@@ -72,7 +72,7 @@ async def callback_inline(call):
             chat_id=call.message.chat.id,
             photo=open(f"resources/trial.jpg", "rb"),
             caption="<b>Well done, you have chosen the 14 days free trial✅</b>\n\n"
-                 "To activate the <b>free plan</b>, you need to:\n\n"
+                 "To activate the <b>Free Trial</b>, you need to:\n\n"
                  '🧑‍💻Click on <b>"REGISTRATION"</b> and register on <b>22BET</b>\n\n'
                     'Use promo code <b>“KNIGHT”</b> to get your <b>WELCOME BONUS🎁</b>\n\n'
                  '🔍 Then click on <b>"Verify Registration"</b>.',
